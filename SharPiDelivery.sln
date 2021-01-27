@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharPiDelivery", "SharPiDelivery\SharPiDelivery.csproj", "{AD50D287-D5C6-4ED4-B736-A06496A6CEE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharPiDelivery.Demo", "SharPiDelivery.Demo\SharPiDelivery.Demo.csproj", "{00715909-149B-43F0-85C2-41E44CF6CFD1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD50D287-D5C6-4ED4-B736-A06496A6CEE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD50D287-D5C6-4ED4-B736-A06496A6CEE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD50D287-D5C6-4ED4-B736-A06496A6CEE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD50D287-D5C6-4ED4-B736-A06496A6CEE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00715909-149B-43F0-85C2-41E44CF6CFD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00715909-149B-43F0-85C2-41E44CF6CFD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00715909-149B-43F0-85C2-41E44CF6CFD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00715909-149B-43F0-85C2-41E44CF6CFD1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3BE4D100-4EA4-40DB-8F6A-27C490015630}
+	EndGlobalSection
+EndGlobal
