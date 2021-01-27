@@ -1,7 +1,13 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
+    <PackageTags>pi delivery, pi, api</PackageTags>
+    <Description>A C# wrapper for the Pi Delivery API.</Description>
+    <Copyright>© 2020-2021, Alex Kalfakakos</Copyright>
+    <RepositoryUrl>https://github.com/AlFasGD/SharPiDelivery</RepositoryUrl>
+    <Authors>Alex Kalfakakos</Authors>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
