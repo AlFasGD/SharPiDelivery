@@ -16,15 +16,7 @@ namespace SharPiDelivery
         /// <summary>The max number of digits that can be retrieved with each request.</summary>
         public const int DigitLimit = 1000;
 
-        private HttpClient client;
-
-        public PiDelivery()
-        {
-            client = new HttpClient
-            {
-                BaseAddress = new(baseAPIAddress),
-            };
-        }
+        private HttpClient client = new();
 
         /// <summary>Gets the requested number of digits starting from the specified starting index.</summary>
         /// <param name="startingIndex">The index of the first digit to start from. That index is equivalent to the respective digit at magnitude 10 ^ (-index). For example, from index 0 the resulting content is "31415...", whereas from index 1 it is "1415...".</param>
